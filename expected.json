@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "kits",
+   "args": [
+    "365",
+    "8"
+   ],
+   "expect": "The 365 lanterns at 8 lanterns a kit take 46 kits, the last kit holding 5 lanterns."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "365",
+    "30"
+   ],
+   "expect": "The 365 lanterns at 30 lanterns a week last 12 full weeks with 5 lanterns left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "46",
+    "12.75",
+    "365"
+   ],
+   "expect": "The 46 kits at $12.75 a kit come to $586.50, $1.61 a lantern."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "365",
+    "5"
+   ],
+   "expect": "The 365 lanterns at 5 lanterns a minute take 73 minutes, 1 hour 13 minutes."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 lantern at 1 lantern a kit takes 1 kit, the last kit holding 1 lantern."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "360",
+    "8"
+   ],
+   "expect": "The 360 lanterns at 8 lanterns a kit take 45 kits, the last kit holding 8 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 lanterns at 1000 lanterns a kit take 1000 kits, the last kit holding 1000 lanterns."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 lantern at 1 lantern a week lasts 1 full week with 0 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "360",
+    "30"
+   ],
+   "expect": "The 360 lanterns at 30 lanterns a week last 12 full weeks with 0 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 lanterns at 100000 lanterns a week last 10 full weeks with 0 lanterns left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 kit at $0.01 a kit comes to $0.01, $0.01 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 kits at $999.99 a kit come to $99999000.00, $100.00 a lantern."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 lantern at 1 lantern a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 lanterns at 1 lantern a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 lanterns at 100 lanterns a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "321250",
+    "489"
+   ],
+   "expect": "The 321250 lanterns at 489 lanterns a kit take 657 kits, the last kit holding 466 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "662731",
+    "508"
+   ],
+   "expect": "The 662731 lanterns at 508 lanterns a kit take 1305 kits, the last kit holding 299 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "159280",
+    "378"
+   ],
+   "expect": "The 159280 lanterns at 378 lanterns a kit take 422 kits, the last kit holding 142 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "641703",
+    "95"
+   ],
+   "expect": "The 641703 lanterns at 95 lanterns a kit take 6755 kits, the last kit holding 73 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "269310",
+    "762"
+   ],
+   "expect": "The 269310 lanterns at 762 lanterns a kit take 354 kits, the last kit holding 324 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "688087",
+    "818"
+   ],
+   "expect": "The 688087 lanterns at 818 lanterns a kit take 842 kits, the last kit holding 149 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "842317",
+    "644"
+   ],
+   "expect": "The 842317 lanterns at 644 lanterns a kit take 1308 kits, the last kit holding 609 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "511782",
+    "183"
+   ],
+   "expect": "The 511782 lanterns at 183 lanterns a kit take 2797 kits, the last kit holding 114 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "697418",
+    "242"
+   ],
+   "expect": "The 697418 lanterns at 242 lanterns a kit take 2882 kits, the last kit holding 216 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "438787",
+    "596"
+   ],
+   "expect": "The 438787 lanterns at 596 lanterns a kit take 737 kits, the last kit holding 131 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "6168",
+    "902"
+   ],
+   "expect": "The 6168 lanterns at 902 lanterns a kit take 7 kits, the last kit holding 756 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "26834",
+    "841"
+   ],
+   "expect": "The 26834 lanterns at 841 lanterns a kit take 32 kits, the last kit holding 763 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "422114",
+    "798"
+   ],
+   "expect": "The 422114 lanterns at 798 lanterns a kit take 529 kits, the last kit holding 770 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "622737",
+    "624"
+   ],
+   "expect": "The 622737 lanterns at 624 lanterns a kit take 998 kits, the last kit holding 609 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "943860",
+    "91"
+   ],
+   "expect": "The 943860 lanterns at 91 lanterns a kit take 10373 kits, the last kit holding 8 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "935791",
+    "716"
+   ],
+   "expect": "The 935791 lanterns at 716 lanterns a kit take 1307 kits, the last kit holding 695 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "767461",
+    "457"
+   ],
+   "expect": "The 767461 lanterns at 457 lanterns a kit take 1680 kits, the last kit holding 158 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "553748",
+    "896"
+   ],
+   "expect": "The 553748 lanterns at 896 lanterns a kit take 619 kits, the last kit holding 20 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "979277",
+    "430"
+   ],
+   "expect": "The 979277 lanterns at 430 lanterns a kit take 2278 kits, the last kit holding 167 lanterns."
+  },
+  {
+   "fn": "kits",
+   "args": [
+    "399628",
+    "952"
+   ],
+   "expect": "The 399628 lanterns at 952 lanterns a kit take 420 kits, the last kit holding 740 lanterns."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "338877",
+    "46834"
+   ],
+   "expect": "The 338877 lanterns at 46834 lanterns a week last 7 full weeks with 11039 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "301233",
+    "39529"
+   ],
+   "expect": "The 301233 lanterns at 39529 lanterns a week last 7 full weeks with 24530 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "706299",
+    "9553"
+   ],
+   "expect": "The 706299 lanterns at 9553 lanterns a week last 73 full weeks with 8930 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "161424",
+    "73122"
+   ],
+   "expect": "The 161424 lanterns at 73122 lanterns a week last 2 full weeks with 15180 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "41290",
+    "88624"
+   ],
+   "expect": "The 41290 lanterns at 88624 lanterns a week last 0 full weeks with 41290 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "16322",
+    "69605"
+   ],
+   "expect": "The 16322 lanterns at 69605 lanterns a week last 0 full weeks with 16322 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "935445",
+    "5870"
+   ],
+   "expect": "The 935445 lanterns at 5870 lanterns a week last 159 full weeks with 2115 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "779293",
+    "21032"
+   ],
+   "expect": "The 779293 lanterns at 21032 lanterns a week last 37 full weeks with 1109 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "916451",
+    "76275"
+   ],
+   "expect": "The 916451 lanterns at 76275 lanterns a week last 12 full weeks with 1151 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "333302",
+    "23700"
+   ],
+   "expect": "The 333302 lanterns at 23700 lanterns a week last 14 full weeks with 1502 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "793942",
+    "62257"
+   ],
+   "expect": "The 793942 lanterns at 62257 lanterns a week last 12 full weeks with 46858 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "915689",
+    "79762"
+   ],
+   "expect": "The 915689 lanterns at 79762 lanterns a week last 11 full weeks with 38307 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "771259",
+    "25463"
+   ],
+   "expect": "The 771259 lanterns at 25463 lanterns a week last 30 full weeks with 7369 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "856653",
+    "38893"
+   ],
+   "expect": "The 856653 lanterns at 38893 lanterns a week last 22 full weeks with 1007 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "954090",
+    "28463"
+   ],
+   "expect": "The 954090 lanterns at 28463 lanterns a week last 33 full weeks with 14811 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "252006",
+    "25830"
+   ],
+   "expect": "The 252006 lanterns at 25830 lanterns a week last 9 full weeks with 19536 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "658423",
+    "1441"
+   ],
+   "expect": "The 658423 lanterns at 1441 lanterns a week last 456 full weeks with 1327 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "321957",
+    "31922"
+   ],
+   "expect": "The 321957 lanterns at 31922 lanterns a week last 10 full weeks with 2737 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "106094",
+    "39680"
+   ],
+   "expect": "The 106094 lanterns at 39680 lanterns a week last 2 full weeks with 26734 lanterns left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "126174",
+    "33736"
+   ],
+   "expect": "The 126174 lanterns at 33736 lanterns a week last 3 full weeks with 24966 lanterns left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "36584",
+    "569.9",
+    "648926"
+   ],
+   "expect": "The 36584 kits at $569.90 a kit come to $20849221.60, $32.13 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "3254",
+    "700.3",
+    "79690"
+   ],
+   "expect": "The 3254 kits at $700.30 a kit come to $2278776.20, $28.60 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "58361",
+    "638.95",
+    "789891"
+   ],
+   "expect": "The 58361 kits at $638.95 a kit come to $37289760.95, $47.21 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "80376",
+    "426.09",
+    "299811"
+   ],
+   "expect": "The 80376 kits at $426.09 a kit come to $34247409.84, $114.23 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "70860",
+    "988.28",
+    "958687"
+   ],
+   "expect": "The 70860 kits at $988.28 a kit come to $70029520.80, $73.05 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "45906",
+    "578.67",
+    "143505"
+   ],
+   "expect": "The 45906 kits at $578.67 a kit come to $26564425.02, $185.11 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "78813",
+    "852.5",
+    "89495"
+   ],
+   "expect": "The 78813 kits at $852.50 a kit come to $67188082.50, $750.75 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "11328",
+    "662.79",
+    "712656"
+   ],
+   "expect": "The 11328 kits at $662.79 a kit come to $7508085.12, $10.54 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "37823",
+    "925.91",
+    "514346"
+   ],
+   "expect": "The 37823 kits at $925.91 a kit come to $35020693.93, $68.09 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "73190",
+    "769.32",
+    "562367"
+   ],
+   "expect": "The 73190 kits at $769.32 a kit come to $56306530.80, $100.12 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "94288",
+    "579.04",
+    "524623"
+   ],
+   "expect": "The 94288 kits at $579.04 a kit come to $54596523.52, $104.07 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "78894",
+    "892.87",
+    "534515"
+   ],
+   "expect": "The 78894 kits at $892.87 a kit come to $70442085.78, $131.79 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "80920",
+    "687.22",
+    "807032"
+   ],
+   "expect": "The 80920 kits at $687.22 a kit come to $55609842.40, $68.91 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "60516",
+    "418.46",
+    "772593"
+   ],
+   "expect": "The 60516 kits at $418.46 a kit come to $25323525.36, $32.78 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "46760",
+    "451.45",
+    "599992"
+   ],
+   "expect": "The 46760 kits at $451.45 a kit come to $21109802.00, $35.18 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8179",
+    "839.17",
+    "328579"
+   ],
+   "expect": "The 8179 kits at $839.17 a kit come to $6863571.43, $20.89 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "64380",
+    "846.02",
+    "826816"
+   ],
+   "expect": "The 64380 kits at $846.02 a kit come to $54466767.60, $65.88 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8703",
+    "251.01",
+    "725686"
+   ],
+   "expect": "The 8703 kits at $251.01 a kit come to $2184540.03, $3.01 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "55675",
+    "390.7",
+    "281338"
+   ],
+   "expect": "The 55675 kits at $390.70 a kit come to $21752222.50, $77.32 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "76801",
+    "374.97",
+    "68005"
+   ],
+   "expect": "The 76801 kits at $374.97 a kit come to $28798070.97, $423.47 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "51486",
+    "555.89",
+    "923882"
+   ],
+   "expect": "The 51486 kits at $555.89 a kit come to $28620552.54, $30.98 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "11671",
+    "892.14",
+    "631311"
+   ],
+   "expect": "The 11671 kits at $892.14 a kit come to $10412165.94, $16.49 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "57601",
+    "189.3",
+    "249227"
+   ],
+   "expect": "The 57601 kits at $189.30 a kit come to $10903869.30, $43.75 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "88544",
+    "714.36",
+    "243048"
+   ],
+   "expect": "The 88544 kits at $714.36 a kit come to $63252291.84, $260.25 a lantern."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "96902",
+    "55.91",
+    "782414"
+   ],
+   "expect": "The 96902 kits at $55.91 a kit come to $5417790.82, $6.92 a lantern."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "413956",
+    "43"
+   ],
+   "expect": "The 413956 lanterns at 43 lanterns a minute take 9627 minutes, 160 hours 27 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "103119",
+    "79"
+   ],
+   "expect": "The 103119 lanterns at 79 lanterns a minute take 1306 minutes, 21 hours 46 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "932046",
+    "60"
+   ],
+   "expect": "The 932046 lanterns at 60 lanterns a minute take 15535 minutes, 258 hours 55 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "867271",
+    "20"
+   ],
+   "expect": "The 867271 lanterns at 20 lanterns a minute take 43364 minutes, 722 hours 44 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "214231",
+    "86"
+   ],
+   "expect": "The 214231 lanterns at 86 lanterns a minute take 2492 minutes, 41 hours 32 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "811675",
+    "92"
+   ],
+   "expect": "The 811675 lanterns at 92 lanterns a minute take 8823 minutes, 147 hours 3 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "35846",
+    "57"
+   ],
+   "expect": "The 35846 lanterns at 57 lanterns a minute take 629 minutes, 10 hours 29 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "894709",
+    "13"
+   ],
+   "expect": "The 894709 lanterns at 13 lanterns a minute take 68824 minutes, 1147 hours 4 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "467212",
+    "91"
+   ],
+   "expect": "The 467212 lanterns at 91 lanterns a minute take 5135 minutes, 85 hours 35 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "402453",
+    "62"
+   ],
+   "expect": "The 402453 lanterns at 62 lanterns a minute take 6492 minutes, 108 hours 12 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "153486",
+    "63"
+   ],
+   "expect": "The 153486 lanterns at 63 lanterns a minute take 2437 minutes, 40 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "312492",
+    "37"
+   ],
+   "expect": "The 312492 lanterns at 37 lanterns a minute take 8446 minutes, 140 hours 46 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "73936",
+    "83"
+   ],
+   "expect": "The 73936 lanterns at 83 lanterns a minute take 891 minutes, 14 hours 51 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "906410",
+    "18"
+   ],
+   "expect": "The 906410 lanterns at 18 lanterns a minute take 50357 minutes, 839 hours 17 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "520875",
+    "36"
+   ],
+   "expect": "The 520875 lanterns at 36 lanterns a minute take 14469 minutes, 241 hours 9 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "866110",
+    "76"
+   ],
+   "expect": "The 866110 lanterns at 76 lanterns a minute take 11397 minutes, 189 hours 57 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "817944",
+    "23"
+   ],
+   "expect": "The 817944 lanterns at 23 lanterns a minute take 35563 minutes, 592 hours 43 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "21847",
+    "12"
+   ],
+   "expect": "The 21847 lanterns at 12 lanterns a minute take 1821 minutes, 30 hours 21 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "170171",
+    "60"
+   ],
+   "expect": "The 170171 lanterns at 60 lanterns a minute take 2837 minutes, 47 hours 17 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "kits",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "kits",
+   [
+    "1000001",
+    "8"
+   ]
+  ],
+  [
+   "kits",
+   [
+    "2.5",
+    "8"
+   ]
+  ],
+  [
+   "kits",
+   [
+    "365",
+    "0"
+   ]
+  ],
+  [
+   "kits",
+   [
+    "365",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "365",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "365",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "365",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "12.75",
+    "365"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "12.75",
+    "365"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "0",
+    "365"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.755",
+    "365"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.75",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "time",
+   [
+    "365",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "365",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "365",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
